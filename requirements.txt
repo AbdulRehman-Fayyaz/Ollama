@@ -1,0 +1,7 @@
+ollama
+time
+
+# ollama run llama3.1:latest
+# ollama run gpt-oss
+# ollama run gemma4:e4b
+# ollama run qwen3.6:35b   (not enough memory, I deleted it)
