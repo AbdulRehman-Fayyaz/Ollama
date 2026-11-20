@@ -3,6 +3,9 @@ import time
 
 client = ollama.Client()
 
+# Download Ollama (https://ollama.com/download/OllamaSetup.exe) 
+# then pip install ollama library (pip install ollama)
+# then download and install the model you want to use locally (ollama run gemma4 {this model size is 6.6GB - 9.5GB}) (see more and find the models from https://ollama.com/search)
 model = "llama3.1:latest" # specify the model version to use, that you have also installed locally
 CONTEXT_LENGTH = 8192   # match your Ollama app setting (8k)
 

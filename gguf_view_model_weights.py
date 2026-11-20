@@ -1,6 +1,7 @@
 from gguf import GGUFReader
 from gguf.quants import dequantize
 
+# Update this path to point to your GGUF model file, currently set to a ABB_path
 path = r"C:\Users\DEABREH\.ollama\models\blobs\sha256-667b0c1932bc6ffc593ed1d03f895bf2dc8dc6df21db3042284a6f4416b06a29"
 reader = GGUFReader(path)
 
